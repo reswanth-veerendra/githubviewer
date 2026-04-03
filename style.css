@@ -99,13 +99,21 @@ button:hover{
 .repo-card p{
     text-align: center;
 }
+hr{
+    border:none;
+    border-top:0.7px solid rgba(255, 255, 255, 0.423);
+}
+#hor{
+    border:none;
+    border-top:2px solid white ;
+}
 @media screen and (max-width: 780px) {
 input{
-        width: 100%;
-        margin-bottom: 10px;
+      width: 100%;
+       margin-bottom: 10px;
     }
 button{
-        width: 100%;
+    width: 100%;
     }
 #container2{
     display: flex;
