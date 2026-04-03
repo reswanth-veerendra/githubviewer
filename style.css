@@ -1,7 +1,7 @@
 body{
     font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
-    background-color:#0d1117;
-    color:#c9d1d9;
+    background-color:rgb(13, 17, 23);
+    color:rgb(201, 209, 217);
     display:flex;
     justify-content:center;
     padding:50px;
@@ -17,8 +17,8 @@ input{
     padding: 12px;
     width: 30%;
     border-radius: 6px;
-    border: 1px solid #30363d;
-    background-color: #010409;
+    border: 1px solid rgb(48, 54, 61);
+    background-color: rgb(1, 4, 9);
     color: white;
     outline: none;
 }
@@ -26,14 +26,14 @@ button{
     padding: 12px 20px;
     border-radius: 6px;
     border: none;
-    background-color: #238636;
+    background-color: rgb(35, 134, 54);
     color: white;
     cursor: pointer;
     font-weight: bold;
     transition:  all 0.2s;
 }
 button:hover{
-    background-color: #679870;
+    background-color: rgb(103, 152, 112);
 }
 #container2{
     display: flex;
@@ -53,48 +53,48 @@ button:hover{
  padding: 10px;
 }
 .profilecard{
-    background-color: #161b22cc;
-    backdrop-filter: blur(5px);
-    border: 1px solid #30363d;
+    background-color:rgba(22, 27, 34, 0.8);
+    backdrop-filter:blur(5px);
+    border: 1px solid rgb(48, 54, 61);
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 }
 .profilecard h2{
-    color:#58a6ff;
+    color:rgb(88, 166, 255);
 }
 #company{
     letter-spacing: 0.1rem;
 }
 .profilecard img{
     border-radius: 50%;
-    border: 2px solid #58a6ff;
+    border: 2px solid rgb(88, 166, 255);
     margin-bottom: 15px;
 }
 .repo-card{
     display: flex;
     justify-content: space-between;
-    background: #0d1117;
+    background: rgb(13, 17, 23);
     padding: 10px 15px;
     margin: 8px;
     border-radius: 6px;
-    border: 1px solid #30363d;
+    border: 1px solid rgb(48, 54, 61);
     text-align: left;
     overflow-x: auto;
 }
 .repo-card a{
-    color: #58a6ff;
+    color: rgb(88, 166, 255);
     text-decoration: none;
     font-weight: 600;
     padding: 10px;
     transition: all  ease 0.2s;
 }
 .repo-card a:hover {
-    color: #3366a0;
+    color: rgb(51, 102, 160);
 }
 .repo-card span{
     font-size: 0.9rem;
-    color: #8b949e;
+    color: rgb(139, 148, 158);
 }
 .repo-card p{
     text-align: center;
@@ -111,9 +111,6 @@ hr{
 input{
       width: 100%;
        margin-bottom: 10px;
-    }
-button{
-    width: 100%;
     }
 #container2{
     display: flex;
