@@ -33,7 +33,7 @@ reposit.innerHTML="<p>Loading repositories...</p>";
     }
 }
 
-function displayUser(user, repos) {
+function displayUser(user,repos) {
     const profile = document.getElementById('profile');
     const reposit = document.getElementById('reposit');
        
